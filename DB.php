@@ -14,7 +14,12 @@ class DB
 
     private function __construct(){
         try{
-            $this->pdo = new PDO('mysql:dbname=northmarina;host=localhost', 'root', '');
+            $dbname = "northmarina"; // Nom de la base de donnée
+            $host = "localhost";
+            $user_name = "root";
+            $password = "";
+
+            $this->pdo = new PDO('mysql:dbname='.$dbname.';host='.$host.'', ''.$user_name.'', ''.$password.'');
         }catch (PDOException $e){
             print "Erreur !: ". $e->getMessage() . "<br/>";
             die();
