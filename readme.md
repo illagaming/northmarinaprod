@@ -12,19 +12,20 @@ Base de données disponnible dans le fichier **northmarine.sql**
 
 Modifier la Class DB :
 
-`$dbname = "northmarina"; // Nom de la base de donnée`
-`$host = "localhost"; //Adresse du server SQL`
-`$user_name = "root"; //Nom d'utilisater`
-`$password = ""; //Mot de passe`
+- `$dbname = "northmarina"; // Nom de la base de donnée`
+- `$host = "localhost"; //Adresse du server SQL`
+- `$user_name = "root"; //Nom d'utilisater`
+- `$password = ""; //Mot de passe`
 
 
 ------------
 
 
 
-// Apache Version : 2.4.46
-// Mysql Version : 5.3.35
-// PHP Version : 7.3.21
+- // Apache Version : 2.4.46
+- // Mysql Version : 5.3.35
+- // PHP Version : 7.3.21
+
 
 
 

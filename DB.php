@@ -15,9 +15,9 @@ class DB
     private function __construct(){
         try{
             $dbname = "northmarina"; // Nom de la base de donnée
-            $host = "localhost";
-            $user_name = "root";
-            $password = "";
+            $host = "localhost"; //Adresse du server SQL
+            $user_name = "root"; //Nom d'utilisater
+            $password = ""; //Mot de passe
 
             $this->pdo = new PDO('mysql:dbname='.$dbname.';host='.$host.'', ''.$user_name.'', ''.$password.'');
         }catch (PDOException $e){
